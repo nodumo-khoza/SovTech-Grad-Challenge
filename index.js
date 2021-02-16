@@ -11,6 +11,16 @@ const typeDefs = gql`
   type Coin {
     coins_count: Int
     active_markets: Int
+    total_mcap: String
+    total_volume: String
+    btc_d: String
+    eth_d: String
+    mcap_change: String
+    volume_change:Float
+    avg_change_percent: Float
+    volume_ath: String
+    mcap_ath: String
+    
   }
 
   # The "Query" type is special: it lists all of the available queries that
