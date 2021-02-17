@@ -34,7 +34,7 @@ client
           volume24,
           volume24a,
           csupply,
-          tsupply
+          
         }
       }
     `
