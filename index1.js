@@ -1,4 +1,5 @@
 //const axios = require('axios');
+require('dotenv').config();
 const { ApolloServer, gql } = require('apollo-server');
 const Coindata = require("./Coin.js");
 // A schema is a collection of type definitions (hence "typeDefs")
